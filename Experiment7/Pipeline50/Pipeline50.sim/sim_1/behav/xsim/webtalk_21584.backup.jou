@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Dec 19 14:43:12 2021
+# Process ID: 21584
+# Current directory: E:/CPUexperiment/Experiment7/Pipeline50/Pipeline50.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source E:/CPUexperiment/Experiment7/Pipeline50/Pipeline50.sim/sim_1/behav/xsim/xsim.dir/Pipeline50_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: E:/CPUexperiment/Experiment7/Pipeline50/Pipeline50.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: E:/CPUexperiment/Experiment7/Pipeline50/Pipeline50.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source E:/CPUexperiment/Experiment7/Pipeline50/Pipeline50.sim/sim_1/behav/xsim/xsim.dir/Pipeline50_behav/webtalk/xsim_webtalk.tcl -notrace

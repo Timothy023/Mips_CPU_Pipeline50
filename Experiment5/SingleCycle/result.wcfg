@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="SingleCycle_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="SingleCycle_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="338,088.634 ns"></ZoomStartTime>
+      <ZoomEndTime time="338,180.274 ns"></ZoomEndTime>
+      <Cursor1Time time="338,165.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="192"></NameColumnWidth>
+      <ValueColumnWidth column_width="86"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/SingleCycle_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SingleCycle_tb/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SingleCycle_tb/singlecycle/Instruction" type="array">
+      <obj_property name="ElementShortName">Instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SingleCycle_tb/singlecycle/pc" type="array">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SingleCycle_tb/singlecycle/jumpInput" type="array">
+      <obj_property name="ElementShortName">jumpInput[31:0]</obj_property>
+      <obj_property name="ObjectShortName">jumpInput[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SingleCycle_tb/singlecycle/GPR/rg" type="array">
+      <obj_property name="ElementShortName">rg[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg[31:0][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/SingleCycle_tb/singlecycle/cu_op" type="array">
+      <obj_property name="ElementShortName">cu_op[5:0]</obj_property>
+      <obj_property name="ObjectShortName">cu_op[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SingleCycle_tb/singlecycle/rg1Output" type="array">
+      <obj_property name="ElementShortName">rg1Output[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg1Output[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SingleCycle_tb/singlecycle/rg2Output" type="array">
+      <obj_property name="ElementShortName">rg2Output[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rg2Output[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SingleCycle_tb/singlecycle/rg1ID" type="array">
+      <obj_property name="ElementShortName">rg1ID[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rg1ID[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SingleCycle_tb/singlecycle/rg2ID" type="array">
+      <obj_property name="ElementShortName">rg2ID[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rg2ID[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SingleCycle_tb/singlecycle/cu_rs" type="array">
+      <obj_property name="ElementShortName">cu_rs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cu_rs[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SingleCycle_tb/singlecycle/cu_rt" type="array">
+      <obj_property name="ElementShortName">cu_rt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cu_rt[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SingleCycle_tb/singlecycle/cu_rd" type="array">
+      <obj_property name="ElementShortName">cu_rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cu_rd[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SingleCycle_tb/singlecycle/cu_imm" type="array">
+      <obj_property name="ElementShortName">cu_imm[15:0]</obj_property>
+      <obj_property name="ObjectShortName">cu_imm[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SingleCycle_tb/singlecycle/cu_instr" type="array">
+      <obj_property name="ElementShortName">cu_instr[25:0]</obj_property>
+      <obj_property name="ObjectShortName">cu_instr[25:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SingleCycle_tb/singlecycle/alu_A" type="array">
+      <obj_property name="ElementShortName">alu_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SingleCycle_tb/singlecycle/alu_B" type="array">
+      <obj_property name="ElementShortName">alu_B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SingleCycle_tb/singlecycle/alu_C" type="array">
+      <obj_property name="ElementShortName">alu_C[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_C[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SingleCycle_tb/singlecycle/alu_Op" type="array">
+      <obj_property name="ElementShortName">alu_Op[5:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_Op[5:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SingleCycle_tb/k" type="array">
+      <obj_property name="ElementShortName">k[31:0]</obj_property>
+      <obj_property name="ObjectShortName">k[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SingleCycle_tb/singlecycle/wrgID" type="array">
+      <obj_property name="ElementShortName">wrgID[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wrgID[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SingleCycle_tb/singlecycle/DM/data" type="array">
+      <obj_property name="ElementShortName">data[1023:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">data[1023:0][31:0]</obj_property>
+   </wvobject>
+</wave_config>

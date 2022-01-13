@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="DataMemory_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="DataMemory_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="20,501.144 ns"></ZoomStartTime>
+      <ZoomEndTime time="20,749.745 ns"></ZoomEndTime>
+      <Cursor1Time time="20,571.744 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="190"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/DataMemory_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DataMemory_tb/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DataMemory_tb/address" type="array">
+      <obj_property name="ElementShortName">address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">address[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DataMemory_tb/writeEnabled" type="logic">
+      <obj_property name="ElementShortName">writeEnabled</obj_property>
+      <obj_property name="ObjectShortName">writeEnabled</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DataMemory_tb/writeInput" type="array">
+      <obj_property name="ElementShortName">writeInput[31:0]</obj_property>
+      <obj_property name="ObjectShortName">writeInput[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DataMemory_tb/data" type="array">
+      <obj_property name="ElementShortName">data[1023:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">data[1023:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DataMemory_tb/readResult" type="array">
+      <obj_property name="ElementShortName">readResult[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readResult[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DataMemory_tb/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+</wave_config>

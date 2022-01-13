@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../SingleCycle.srcs/sources_1/new/ControllerUnit.v" \
+"../../../../SingleCycle.srcs/sources_1/imports/new/DataMemory.v" \
+"../../../../SingleCycle.srcs/sources_1/new/GeneralPurposeRegisters.v" \
+"../../../../SingleCycle.srcs/sources_1/imports/new/ProgramCounter.v" \
+"../../../../SingleCycle.srcs/sources_1/new/SingleCycle.v" \
+"../../../../SingleCycle.srcs/sources_1/imports/new/alu.v" \
+"../../../../SingleCycle.srcs/sim_1/new/SingleCycle_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

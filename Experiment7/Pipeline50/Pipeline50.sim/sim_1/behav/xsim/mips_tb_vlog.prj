@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Pipeline50.srcs/sources_1/imports/UsefulCode/ControllerUnit.v" \
+"../../../../Pipeline50.srcs/sources_1/imports/UsefulCode/DataMemory.v" \
+"../../../../Pipeline50.srcs/sources_1/imports/UsefulCode/GeneralPurposeRegisters.v" \
+"../../../../Pipeline50.srcs/sources_1/imports/UsefulCode/ProgramCounter.v" \
+"../../../../Pipeline50.srcs/sources_1/imports/UsefulCode/alu.v" \
+
+sv xil_defaultlib  \
+"../../../../Pipeline50.srcs/sources_1/imports/UsefulCode/MultiplicationDivisionUnit.sv" \
+"../../../../Pipeline50.srcs/sources_1/imports/UsefulCode/Pipeline50.sv" \
+
+verilog xil_defaultlib  \
+"../../../../Pipeline50.srcs/sim_1/new/Pipeline50_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Pipeline_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Pipeline_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="175.115 ns"></ZoomEndTime>
+      <Cursor1Time time="4.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="111"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/Pipeline_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Pipeline_tb/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Pipeline_tb/k" type="array">
+      <obj_property name="ElementShortName">k[31:0]</obj_property>
+      <obj_property name="ObjectShortName">k[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Pipeline_tb/pipeline/pc" type="array">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Pipeline_tb/pipeline/Instruction" type="array">
+      <obj_property name="ElementShortName">Instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Pipeline_tb/pipeline/ID_EX.rs" type="array">
+      <obj_property name="ElementShortName">.rs[5:0]</obj_property>
+      <obj_property name="ObjectShortName">.rs[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Pipeline_tb/pipeline/ID_EX.rt" type="array">
+      <obj_property name="ElementShortName">.rt[5:0]</obj_property>
+      <obj_property name="ObjectShortName">.rt[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Pipeline_tb/pipeline/ID_EX.rd" type="array">
+      <obj_property name="ElementShortName">.rd[5:0]</obj_property>
+      <obj_property name="ObjectShortName">.rd[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Pipeline_tb/pipeline/alu_A" type="array">
+      <obj_property name="ElementShortName">alu_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_A[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Pipeline_tb/pipeline/alu_B" type="array">
+      <obj_property name="ElementShortName">alu_B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_B[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Pipeline_tb/pipeline/alu_Op" type="array">
+      <obj_property name="ElementShortName">alu_Op[5:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_Op[5:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Pipeline_tb/pipeline/alu_C" type="array">
+      <obj_property name="ElementShortName">alu_C[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_C[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Pipeline_tb/pipeline/IF_ID.pc" type="array">
+      <obj_property name="ElementShortName">.pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">.pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Pipeline_tb/pipeline/ID_EX.pc" type="array">
+      <obj_property name="ElementShortName">.pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">.pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Pipeline_tb/pipeline/EX_MEM.pc" type="array">
+      <obj_property name="ElementShortName">.pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">.pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Pipeline_tb/pipeline/MEM_WB.pc" type="array">
+      <obj_property name="ElementShortName">.pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">.pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Pipeline_tb/pipeline/ft_alu_a" type="logic">
+      <obj_property name="ElementShortName">ft_alu_a</obj_property>
+      <obj_property name="ObjectShortName">ft_alu_a</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Pipeline_tb/pipeline/ft_alu_b" type="logic">
+      <obj_property name="ElementShortName">ft_alu_b</obj_property>
+      <obj_property name="ObjectShortName">ft_alu_b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Pipeline_tb/pipeline/ft_id_a" type="logic">
+      <obj_property name="ElementShortName">ft_id_a</obj_property>
+      <obj_property name="ObjectShortName">ft_id_a</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Pipeline_tb/pipeline/ft_id_b" type="logic">
+      <obj_property name="ElementShortName">ft_id_b</obj_property>
+      <obj_property name="ObjectShortName">ft_id_b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Pipeline_tb/pipeline/jumpEnabled" type="logic">
+      <obj_property name="ElementShortName">jumpEnabled</obj_property>
+      <obj_property name="ObjectShortName">jumpEnabled</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Pipeline_tb/pipeline/PC/setFreezeTime" type="logic">
+      <obj_property name="ElementShortName">setFreezeTime</obj_property>
+      <obj_property name="ObjectShortName">setFreezeTime</obj_property>
+   </wvobject>
+</wave_config>

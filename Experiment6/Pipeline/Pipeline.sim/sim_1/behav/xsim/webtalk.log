@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Dec  3 16:27:50 2021
+# Process ID: 14244
+# Current directory: E:/CPUexperiment/Experiment6/Pipeline/Pipeline.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source E:/CPUexperiment/Experiment6/Pipeline/Pipeline.sim/sim_1/behav/xsim/xsim.dir/Pipeline_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: E:/CPUexperiment/Experiment6/Pipeline/Pipeline.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: E:/CPUexperiment/Experiment6/Pipeline/Pipeline.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source E:/CPUexperiment/Experiment6/Pipeline/Pipeline.sim/sim_1/behav/xsim/xsim.dir/Pipeline_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 86.488 ; gain = 4.727
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec  3 16:28:01 2021...

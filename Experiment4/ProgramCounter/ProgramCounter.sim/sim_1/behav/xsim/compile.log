@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/CPUexperiment/Experiment4/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'pcValue' is not allowed [E:/CPUexperiment/Experiment4/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounter.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/CPUexperiment/Experiment4/ProgramCounter/ProgramCounter.srcs/sim_1/new/ProgramCounter_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProgramCounter_tb
